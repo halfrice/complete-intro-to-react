@@ -1,0 +1,27 @@
+{
+  "name": "complete-intro-to-react",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write src/**/*.{js,jsx,json,css}",
+    "format:check": "prettier --list-different src/**/*.{js,jsx,json,css}",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halfrice/complete-intro-to-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halfrice/complete-intro-to-react/issues"
+  },
+  "homepage": "https://github.com/halfrice/complete-intro-to-react#readme",
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "prettier": "^1.16.4"
+  }
+}
