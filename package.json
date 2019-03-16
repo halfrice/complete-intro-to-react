@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier --write src/**/*.{js,jsx,json,css}",
     "format:check": "prettier --list-different src/**/*.{js,jsx,json,css}",
     "lint": "eslint src/**/*.{js,jsx}",
@@ -22,6 +23,11 @@
   "homepage": "https://github.com/halfrice/complete-intro-to-react#readme",
   "devDependencies": {
     "eslint": "^5.15.2",
+    "parcel-bundler": "^1.12.2",
     "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   }
 }
