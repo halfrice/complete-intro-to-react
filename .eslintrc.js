@@ -10,6 +10,7 @@ module.exports = {
     "react/prop-types": 0
   },
   plugins: ["react", "import", "jsx-a11y"],
+  parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: "module",
