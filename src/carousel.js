@@ -17,6 +17,7 @@ class Carousel extends React.Component {
     this.setState({
       active: +event.target.dataset.index
     })
+    console.log("index click...", event)
   }
   render() {
     const { photos, active } = this.state

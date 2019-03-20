@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import Results from "./results"
 import Details from "./details"
+import Search from "./searchParams"
 import { Link, Router } from "@reach/router"
 
 class App extends React.Component {
@@ -12,6 +13,7 @@ class App extends React.Component {
           <Link to="/">CoolPet</Link>
         </header>
         <Router>
+          <Search path="/search-params" />
           <Results path="/" />
           <Details path="/details/:id" />
         </Router>
@@ -20,4 +22,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(React.createElement(App), document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))

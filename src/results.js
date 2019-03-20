@@ -1,7 +1,7 @@
 // Results.js
 import React from "react"
 import pf from "petfinder-client"
-import Pet from "./Pet"
+import Pet from "./pet"
 
 const petfinder = pf({
   key: process.env.API_KEY,
@@ -29,6 +29,7 @@ class Results extends React.Component {
         })
       })
   }
+
   render() {
     return (
       <div className="search">
