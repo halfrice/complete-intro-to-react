@@ -7,7 +7,9 @@ module.exports = {
     "prettier/react"
   ],
   rules: {
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "jsx-a11y/label-has-for": 0,
+    "no-console": 1
   },
   plugins: ["react", "import", "jsx-a11y"],
   parser: "babel-eslint",
